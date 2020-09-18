@@ -1,0 +1,56 @@
+body {
+    background-color: #e6e8ff;
+}
+
+.bg-dark {
+    background-color: #2C2936 !important;
+}
+
+.page {
+    background-color: white;
+}
+
+.copperplate {
+    font-size: 1.5em;
+    font-family: Copperplate, serif;
+}
+
+.title h1 {
+    color: #2C2936;
+    font-size: 3em;
+    font-family: Copperplate, serif;
+}
+
+.bodytext {
+
+}
+
+.nav-tabs .nav-link {
+    background-color: #2C2936;
+    color: white;
+    border: 1px #938fb8 inset;
+    border-bottom: 0;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #e6e8ff;
+    border: 1px #938fb8 inset;
+    border-bottom: 0;
+    z-index: 5;
+}
+
+.sidecard {
+    z-index: 4;
+    margin-top: -2px;
+    padding: 8px;
+    background-color: #e6e8ff;
+    border: 1px #938fb8 inset;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.sidecard em {
+    font-style: normal;
+}
