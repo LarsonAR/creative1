@@ -2,6 +2,10 @@ body {
     background-color: #e6e8ff;
 }
 
+p {
+    font-size: 0.9em;
+}
+
 .bg-dark {
     background-color: #2C2936 !important;
 }
@@ -15,17 +19,48 @@ body {
     font-family: Copperplate, serif;
 }
 
+.title {
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(45deg, #e1dfff, #423f62);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+    max-height: 400px;
+    box-shadow: inset 0 10px 40px -15px #0b2028;
+}
+
 .title h1 {
-    color: #2C2936;
-    font-size: 3em;
+    margin: auto;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 5em;
     font-family: Copperplate, serif;
 }
 
-.bodytext {
+.terra {
+    background-image: url("/images/banners/terra.png");
+}
 
+.mareinia {
+    background-image: url("/images/banners/mareinia.png");
+}
+
+.orpheon {
+    background-image: url("/images/banners/orpheon.png");
+}
+
+.venoa {
+    background-image: url("/images/banners/venoa.png");
+}
+
+.bodytext {
+    padding: 0 5px;
 }
 
 .nav-tabs .nav-link {
+    padding: 1px 4px;
     background-color: #2C2936;
     color: white;
     border: 1px #938fb8 inset;
@@ -53,4 +88,10 @@ body {
 
 .sidecard em {
     font-style: normal;
+}
+
+.footer {
+    margin: 5px auto;
+    color: gray;
+    text-align: center;
 }
